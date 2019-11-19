@@ -13,3 +13,20 @@ h2
 h1{
     @extend h2;
 }
+
+.small{
+  color: $fontColor;
+  font-size: 10px;  
+  border-spacing: 20px;
+}
+
+.medium{
+    @extend .small;
+    color: $colorHeading;
+    font-size: 20px;
+}
+
+.big{
+    @extend .medium;
+    font-size:40px;
+}
